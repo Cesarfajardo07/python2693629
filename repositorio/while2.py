@@ -7,4 +7,3 @@ while num!=0:
 print(f'El usuario ingreso {cont-1} numeros')
 #print('El usuario ingreso', cont, 'numeros')
 
-num=int(input('ingrese numero'))

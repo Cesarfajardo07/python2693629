@@ -15,7 +15,3 @@ for a in range (0,c+1,d):
 
 
 
-s=int(Input('Ingrese un numero '))
-
-for j in range (0,11+1/s):
-    print(j)
