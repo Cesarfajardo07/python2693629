@@ -8,7 +8,26 @@ r=0 #Repeticiones
 tam=int(random.randint(15,20))
 lista= [random.randrange(0,9) for i in range (tam)]
 print(lista)
+
+for i in range(tam):
+    for j in range(i+1,tam):
+        if lista[i]>lista[j]:
+            aux=lista[i]
+            lista[i]=lista[j]
+            lista[j]=aux
+print(lista)
+for i in range(tam):
+    for j in range(i+1,tam):
+        if lista[i]<lista[j]:
+            aux=lista[i]
+            lista[i]=lista[j]
+            lista[j]=aux            
+
+print(lista)
+
 a=int(input( 'Ingrese el numero que desea buscar '))
+print(lista)
+
 
 if a in lista:
     print('El numero que ingreso esta en la lista')
