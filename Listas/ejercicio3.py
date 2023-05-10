@@ -1,7 +1,7 @@
 import random
 rango= 100
 tam=int(random.randint(15,20))
-lista=[] 
+lista=[]
 
 lista.append(random.randint(1,rango))
 for i in range (tam-1):
@@ -24,6 +24,6 @@ for i in range(tam):
         if lista[i]<lista[j]:
             aux=lista[i]
             lista[i]=lista[j]
-            lista[j]=aux            
+            lista[j]=aux
 
 print(lista)

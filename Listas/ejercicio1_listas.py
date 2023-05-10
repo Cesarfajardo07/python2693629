@@ -15,8 +15,7 @@ for i in range(tam):
         mayor=num
     if  num > menor:
         menor=num
-    
-    
+
 print(lista)
 print(f'la suma es {suma}')
 print(f'El numero mayor es {menor}')

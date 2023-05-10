@@ -21,7 +21,7 @@ for i in range(tam):
         if lista[i]<lista[j]:
             aux=lista[i]
             lista[i]=lista[j]
-            lista[j]=aux            
+            lista[j]=aux
 
 print(lista)
 
