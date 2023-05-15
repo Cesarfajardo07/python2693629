@@ -27,7 +27,7 @@ def numeroMenor(lista):
             menor=b
     return menor
 
-def ordenAscendente(lista):                                                                                 
+def ordenAscendente(lista):
     f=len(lista)
     for c in range(f-1):
         for d in range(c+1,f):
@@ -35,7 +35,7 @@ def ordenAscendente(lista):
                 lista[c],lista[d]=lista[d],lista[c]
     return lista
 
-def ordenDescendente(lista):                                                                                 
+def ordenDescendente(lista):
     f=len(lista)
     for c in range(f-1):
         for d in range(c+1,f):
@@ -50,7 +50,7 @@ def numeroEsta(lista):
         print('El numero que ingreso esta en la lista')
     else:
         print('El numero que ingreso no esta en la lista')
-    return 
+    return lista
 
 
 

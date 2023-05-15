@@ -19,3 +19,18 @@ l1=llenarLista(3,10) #print(llenarLista(l1,5,100)  otra opcion para hacerlo
 print(l1)
 print(sumaLista(l1))
 print(round(promedioLista(l1), 2)) #se usa para decidir cuantos numeros del decimal quiere que imprima   #print(promedioLista(l1)) tambien se puede imprimir asi
+
+
+
+
+def numeroMayor(lista):
+    mayor=0
+    for a in lista:
+        if a > mayor:
+            mayor=a
+    for b in lista:
+        if b > mayor:
+            print
+    return mayor
+
+print(f'El numero mayor de las dos listas es {numeroMayor()}')
