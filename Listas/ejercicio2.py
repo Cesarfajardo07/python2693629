@@ -34,9 +34,6 @@ if a in lista:
 else:
     print('El numero que ingreso no esta en la lista')
 
-for i in range (len(lista)):
-    x=lista[i]
-    print(lista.index(x))
 
 
 
