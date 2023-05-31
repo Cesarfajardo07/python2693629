@@ -26,7 +26,5 @@ for i in range(tam):
 
 print(lista)
 
-x,y=10,20
-
 
 
