@@ -8,6 +8,6 @@ objeto.agregarCurso(objcurso)
 #print(objeto.__dict__)
 objeto.componerCurso()
 objeto.componerCurso()
-#print(objeto.verCursos())
+#print(objeto.verCursos()
 for cursito in objeto.verCursos():
     print(cursito.getNombre())

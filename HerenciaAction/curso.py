@@ -3,5 +3,5 @@ class Curso: #Se crea la clase curso
         self.__nombre=nombre
         self.__tipo=tipo
 
-    def getNombre(self): #Se crea el getter para ver el nombre de del curso
+    def getNombre(self): #Se crea el getter para ver el nombre del curso
         return self.__nombre
