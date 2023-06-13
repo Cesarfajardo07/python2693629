@@ -1,4 +1,7 @@
-diccionarioe={"gato": "cat" ,
+#Terminar
+
+diccionarioe={
+            "gato": "cat" ,
             "perro": "dog" ,
             "aguila": "eagle" ,
             "zorro": "fox" ,
@@ -7,9 +10,10 @@ diccionarioe={"gato": "cat" ,
             "serpiente": "snake" ,
             "caballo": "horse",
             "raton": "mouse",
-            "cebra": "zebra"}
+            "cebra": "zebra"
+            }
 
-words=[input('ingrese animal del diccionario en español: ')]
+words=[input('ingrese un animal en español: ')]
 for word in words:
     if word in diccionarioe:
         print(word, "-->", diccionarioe[word])
@@ -17,7 +21,8 @@ for word in words:
         print(word, 'no esta en el diccionario')
 
 
-diccionarioi={"cat": "gato" ,
+diccionarioi={
+            "cat": "gato" ,
             "dog": "perro" ,
             "eagle": "aguila" ,
             "fox": "zorro" ,
@@ -28,15 +33,9 @@ diccionarioi={"cat": "gato" ,
             "mouse": "raton",
             "cebra": "zebra"}
 
-words=[input('ingrese animal del diccionario en ingles: ')]
+words=[input('ingrese un animal en ingles: ')]
 for word in words:
     if word in diccionarioi:
         print(word, "-->", diccionarioi[word])
     else:
         print(word, 'no esta en el diccionario')
-
-#def opcion (i):
-    #return opcion
-#opcion= input("ingerese diccionarioi o diccionarioe para selccionar diccionario")
-#if opcion =="diccionarioi"
-    #print(diccionarioi|)
